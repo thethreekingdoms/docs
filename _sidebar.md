@@ -1,6 +1,8 @@
 - [简介](/)
 - [开始使用](/_start.md)
 - [脚手架](/_scaffold.md)
+    - [创建一个空白的app](/_scaffold-blank.md)
+    - [克隆npmjs上的第三方app](/_scaffold-third.md)
 - [构建](_build.md)
 - [DevServer](/_devserver.md)
 - [Mock](/_mock.md)
