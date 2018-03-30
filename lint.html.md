@@ -17,4 +17,4 @@ ttk使用[html-webpack-plugin-htmlhint](https://github.com/thethreekingdoms/html
     ```
 3. 根据[htmllint rules](https://github.com/yaniswang/HTMLHint/wiki/Rules)修改`htmllint_rules.json`内容。
 
-完成以上步骤后执行`ttk build`便会根据自定义的规范细节进行规范测试。
+完成以上步骤后执行`ttk compile`便会根据自定义的规范细节进行规范测试。
