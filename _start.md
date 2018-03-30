@@ -24,40 +24,6 @@ cnpm install ttk-tool -g
 
 安装成功后，你可以使用ttk[脚手架](_scaffold.md)创建一个新的ttk项目，或者按照[构建配置文档](_build.md)将已存项目改造为ttk项目。
 
-### 配置
-
-ttk的配置文件入口为项目**根目录**下的`ttk-conf.js`。
-
-ttk的配置API包括以下内容：
-
-* 项目基本信息配置；
-* 针对具体模块的编译配置；
-* 本地服务器配置；
-* Mock服务配置；
-* 部署功能配置；
-* 使用插件。
-
-详细情况如下：
-
-* `ttk.spec(pattern,options)`：编译配置API
-    * `pattern`代表配置的模块类型，可取值包括：
-        * `basic`：项目基本信息配置，详见[basic配置](_config-basic.md)；
-        * `js`：JavaScript文件相关配置，详见[JavaScript编译配置](_config-js.md)；
-        * `style`：style文件相关配置，详见[Style编译配置](_config-style.md)；
-        * `html`：html文件相关配置，详见[Html编译配置](_config-html.md)；
-        * `image`: 图片文件相关配置，详见[Image编译配置](_config-image.md)。
-    * `options`为具体的配置项。不同模块的配置项有差异，具体可参阅各模块配置文档。
-* `ttk.serve(options)`：本地服务器监听状态配置API，详见[本地服务器](_devserver.md)；
-* `ttk.mock(options)`：Mock服务配置API，详见[Mock服务](_mock.md)；
-* `ttk.deploy(options)`：部署功能配置API，详见[远程部署](_deploy.md)；
-* `ttk.use(name,options)`：使用插件API，详见[使用插件](_plugins.md)
-    * `name`代表插件名称；
-    * `options`为具体的配置项，json类型。配置项细节由具体插件定义。
-* `ttk.envs([...])`：自定义环境变量，详见[多环境支持](_envs.md)。
-
-配置细节请查阅[配置文档](_config.md)。
-
-
 ### 脚手架
 
 使用下述命令创建一个新的ttk项目：
@@ -75,7 +41,7 @@ ttk new <webapp>
 在项目根目录下执行：
 
 ```bash
-ttk compile
+ttk compile <env>
 ```
 
 * `<env>`指定构建项目的环境。如果不指定则默认在`testing`环境下编译。ttk内置支持以下环境：
@@ -186,7 +152,7 @@ ttk deploy -e <env>
 
 #### 兼容性
 ##### 浏览器版本
-ttk v2版本的构建系统基于webpack v3，构建产出的代码不支持IE9及以下浏览器。
+构建的前端项目基于webpack v3，支持safari、chrome、ie10-11、edge（不支持IE9及以下浏览器）。
 
 ##### Node.js版本
-ttk源码使用了部分ES6特性，请保证Node.js版本在6及以上。
+使用了部分ES6特性，请保证Node.js版本在6及以上。
