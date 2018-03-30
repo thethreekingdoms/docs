@@ -1,0 +1,22 @@
+{
+  "name": "ttk-doc",
+  "version": "0.0.1",
+  "description": "ttk documents",
+  "main": "index.js",
+  "scripts": {
+    "dev": "docsify serve ./",
+    "build": "",
+    "release": ""
+  },
+  "author": "jeffycai <zhaoyun@hotmail.com> (http://www.ttkteam.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thethreekingdoms/docs.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/thethreekingdoms/docs/issues"
+  },
+  "homepage": "https://github.com/thethreekingdoms/docs#readme"
+}
