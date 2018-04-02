@@ -1,5 +1,5 @@
 ## 使用脚手架克隆第三方app
-[[npmjs](https://www.npmjs.com/~jeffycai)](APP应用商店)
+[[TTK提供的第三方APP](https://www.npmjs.com/~jeffycai)](APP应用商店)
 
 ### 如何克隆
 ```bash

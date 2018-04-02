@@ -1,6 +1,6 @@
 {
   "name": "ttk-doc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ttk documents",
   "main": "index.js",
   "scripts": {
