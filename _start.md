@@ -107,12 +107,12 @@ ttk.mock('Get /userinfo').params(['name']).custom({
   }
 });
 
-ttk.mock('Post /signup').proxy('https://passport.ttk.com/signup');
+ttk.mock('Post /signup').proxy('https://passport.ttkteam.com/signup');
 ```
 
 上述代码定义了两个Mock接口：
 * 支持Get请求的`/userinfo`接口。必选参数`name`，支持jsonp并且jsonpCallback识别为`cb`(默认为`callback`)，返回数据自定义数据；
-* 代理接口`/signup`。将本地接口`/signup`的Post请求代理到'https://passport.ttk.com/signup'接口。
+* 代理接口`/signup`。将本地接口`/signup`的Post请求代理到'https://passport.ttkteam.com/signup'接口。
 
 ##### 独立运行
 在项目根目录下运行：

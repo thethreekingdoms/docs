@@ -9,7 +9,7 @@
 - [测试](/_testing.md)
     - [JavaScript代码规范测试](/_lint-js.md)
 - [部署](/_deploy.md)
-- [模块化开发](/_modules.md)
+- [组件化开发](/_component.md)
 - [多环境支持](/_envs.md)
 - [多页面开发](/_multipage.md)
 - [构建性能优化](/_optimize.md)
@@ -19,3 +19,4 @@
 - [应用中心](/_appstore.md)   
     - [如何开发应用](/_dev-app.md)
     - [自定义脚手架](/_advance-scaffold.md)
+- [谁在使用](/_whouse.md)
