@@ -150,9 +150,14 @@ ttk deploy -e <env>
 
 > 部署的详细功能配置可参阅[远程部署](_deploy.md)。
 
-#### 兼容性
-##### 浏览器版本
-构建的前端项目基于webpack v3，支持safari、chrome、ie10-11、edge（不支持IE9及以下浏览器）。
+#### 浏览器支持
 
-##### Node.js版本
-使用了部分ES6特性，请保证Node.js版本在6及以上。
+| ![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![IE](https://raw.github.com/alrra/browser-logos/master/src/archive/internet-explorer_9-11/internet-explorer_9-11_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/src/safari/safari_48x48.png) | ![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png) |
+| ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| ✔                                                                                 | ✔                                                                                    | 10+ ✔                                                                                                                        | ✔                                                                              | ✔                                                                                 | ✔                                                                           |
+
+
+
+
+
+
