@@ -1,5 +1,5 @@
 ## 使用脚手架克隆第三方app
-[[TTK提供的第三方APP](https://www.npmjs.com/~jeffycai)](APP应用商店)
+[[TTK提供的第三方APP](https://www.npmjs.com/~jeffycai)](应用商店)
 
 ### 如何克隆
 ```bash
@@ -13,7 +13,10 @@ ttk clone <应用商店提供的app名称> [app存放路径]
 参考事例：
 ```bash
 ttk clone ttk-edf-app-login apps/edf/ttk-edf-app-login
-ttk compile
-ttk start
+```
+### 如何批量克隆
+```
+ttk apps apps/edf ttk-edf-app-login ttk-edf-app-portal ttk-edf-app-home
 ```
 
+![Alt text](/assets/20180411150725.png)

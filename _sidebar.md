@@ -21,4 +21,5 @@
     - [使用插件](/_plugins.md)
 - [安全](_safe.md)
 - [国际化](_international.md)
+- [常见问题](_problem.md)
 - [谁在使用](/_whouse.md)
