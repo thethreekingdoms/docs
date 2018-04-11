@@ -8,19 +8,12 @@ ttk以命令行工具的形式工作，使用npm全局安装：
 npm i ttk-tool -g
 ```
 
-> 目前ttk版本为v1.x
-
 国内网络环境下访问npm仓库比较缓慢，可以将npm仓库地址修改为国内淘宝镜像：
 
 ```bash
 npm config set registry https://registry.npm.taobao.org
 ```
 
-或者使用[cnpm](https://cnpmjs.org/)安装：
-
-```bash
-cnpm install ttk-tool -g
-```
 
 安装成功后，你可以使用ttk[脚手架](_scaffold.md)创建一个新的ttk项目，或者按照[构建配置文档](_build.md)将已存项目改造为ttk项目。
 
