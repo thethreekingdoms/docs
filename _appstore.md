@@ -2,12 +2,10 @@
 
 > [app列表](http://note.youdao.com/noteshare?id=3d3ab9c1148640bf75fcda282d54057e)
 
-> [在线演示](https://thethreekingdoms.github.io/html/)
-
 ---
 |序号 | 应用名称 | 描述 | github链接 | 所属模块 | 来源 | 进度
-| --- |--- | ---  |------    |---       |-     |-
-| 1  |  ttk-edf-app-login  |  登录|[进入](https://github.com/thethreekingdoms/ttk-edf-app-login/) |  基础模块| ![image](https://thethreekingdoms.github.io/favicon.png) | 80% |
+| --- |--- | ---  |------    |---       |-     |-----
+1  |  ttk-edf-app-login  |  登录|[进入](https://github.com/thethreekingdoms/ttk-edf-app-login/) |  基础模块| ![image](https://thethreekingdoms.github.io/favicon.png) | 80% |
 2  |  ttk-edf-app-portal  |  门户页|[进入](https://github.com/thethreekingdoms/ttk-edf-app-portal/)|  基础模块| ![image](https://thethreekingdoms.github.io/favicon.png) | 80% |
 3  |  ttk-edf-app-home  |  我的桌面|[进入](https://github.com/thethreekingdoms/ttk-edf-app-home/)|  Dashboard| ![image](https://thethreekingdoms.github.io/favicon.png) | 100% |
 4  |  ttk-edf-app-dashboard-workplace | 工作台|[进入](https://github.com/thethreekingdoms/ttk-edf-app-dashboard-workplace/)|  Dashboard| ![image](https://thethreekingdoms.github.io/favicon.png) | 100% |
@@ -43,9 +41,10 @@
 34  |  ttk-edf-app-column  | 栏目预置|[进入](https://github.com/thethreekingdoms/ttk-edf-app-column/)|  开发框架| ![image](https://thethreekingdoms.github.io/favicon.png) | 50% |
 35  |  ttk-edf-app-tools  | 开发工具|[进入](https://github.com/thethreekingdoms/ttk-edf-app-tools/)|  开发框架| ![image](https://thethreekingdoms.github.io/favicon.png) | 50% |
 
-
 ```
 ttk apps apps/edf ttk-edf-app-login ttk-edf-app-portal ttk-edf-app-home ttk-edf-app-dashboard-workplace ttk-edf-app-dashboard-monitor ttk-edf-app-notice ttk-edf-app-help ttk-edf-app-my-setting ttk-edf-app-basecard ttk-edf-app-step-form ttk-voucher-app-document ttk-edf-app-saleorder ttk-edf-app-stockcard ttk-table-app-simplelist ttk-table-app-list ttk-table-app-rpt ttk-edf-app-productlist ttk-edf-app-orderlist ttk-table-app-simplerpt ttk-table-app-advancereport ttk-table-app-tab-list ttk-edf-app-list-department-personnel ttk-edf-app-list-customer ttk-edf-app-list-supplier ttk-edf-app-list-project ttk-edf-app-list-inventory ttk-edf-app-list-account ttk-edf-app-list-currency ttk-edf-app-list-userdefinecard ttk-edf-app-portal-menu ttk-edf-app-operation ttk-edf-app-role-auth ttk-edf-app-enum ttk-edf-app-column ttk-edf-app-tools
 ```
-
+```
+> npm start
+```
 > 复制以上内容，即可一键搭建演示环境
