@@ -5,6 +5,7 @@
     - [克隆npmjs上的第三方app](/_scaffold-third.md)
 - [入门](/_abc.md)   
     - [如何开发应用](/_dev-app.md)
+- [应用商店](https://github.com/thethreekingdoms/ttk-edf-appstore/blob/master/README.md)
 - [构建](_build.md)
 - [DevServer](/_devserver.md)
 - [Mock](/_mock.md)
