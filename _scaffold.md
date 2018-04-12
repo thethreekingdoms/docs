@@ -1,5 +1,24 @@
 ## 脚手架
 
+
+
+命令 | 说明
+---|---
+new/n | create website project
+app/a | create app files
+sever/se | create Sever files
+service/sc | create Service files
+clone/c |       clone app files
+compile/cp|     compile the project
+update/up |     update the app
+apps/as    |    clone apps
+reset/re   |    reset the project folder
+init/i     |    install complete apps
+
+
+
+
+
 ttk-tool脚手架完整的命令格式如下：
 ```bash
 ttk new <newapp>
