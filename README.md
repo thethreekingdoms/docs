@@ -1,19 +1,11 @@
   <div align=center><img width="150" height="150" src="https://avatars2.githubusercontent.com/u/37540303?s=400&u=9de24e566c827a02fccd5f81b268ec0a5b5633fb&v=4"/></div>
-
-
-  [![license](https://img.shields.io/github/license/ttk/ttk.svg?style=plastic)](https://github.com/thethreekingdoms/ttk-app-core/master/LICENSE)
-  [![npm](https://img.shields.io/npm/v/ttk.svg?style=plastic)](https://www.npmjs.com/package/ttk-app-core)
-
-
-
-  [![GitHub stars](https://img.shields.io/github/stars/ttk/ttk.svg?style=social&label=Stars)](https://github.com/thethreekingdoms/ttk-app-core)
-  [![GitHub forks](https://img.shields.io/github/forks/ttk/ttk.svg?style=social&label=Fork)](https://github.com/thethreekingdoms/ttk-app-core)
-  [![GitHub followers](https://img.shields.io/github/followers/ttk.svg?style=social&label=Follow)](https://github.com/thethreekingdoms)
-
- 
+[![npm version](https://img.shields.io/npm/v/ttk-app-core.svg)](https://www.npmjs.com/package/ttk-app-core)
+[![Build Status](https://img.shields.io/travis/thethreekingdoms/ttk-app-core/master.svg)](https://travis-ci.org/thethreekingdoms/ttk-app-core)
+[![devDependency Status](https://img.shields.io/david/dev/thethreekingdoms/ttk-app-core.svg)](https://david-dm.org/thethreekingdoms/ttk-app-core#info=devDependencies)
+[![NPM downloads](http://img.shields.io/npm/dm/ttk-app-core.svg?style=flat)](https://npmjs.org/package/ttk-app-core)
 
   ### 命名来源：`TTK`是三国演义（The Three Kingdoms）的简称,它代表一支长期从事企业应用开发的团队。 ###
-  ### 我们目标：为企业应用开发提供高效、稳定的技术平台支持。  ###
+  ### 我们目标：为企业应用开发提供快速、高效、稳定的技术平台。  ###
 
   > 前端部分
 
@@ -25,6 +17,3 @@
   > 后端部分
 
   整理中...
-
-  感谢为ttk开源项目付出的个人及组织。
- 
