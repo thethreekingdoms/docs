@@ -1,51 +1,71 @@
 ## 脚手架
 
+# 脚手架API说明
 
 
 命令 | 说明
 ---|---
-new/n | create website project
-app/a | create app files
-sever/se | create Sever files
-service/sc | create Service files
-clone/c |       clone app files
-compile/cp|     compile the project
-update/up |     update the app
-apps/as    |    clone apps
-reset/re   |    reset the project folder
-init/i     |    install complete apps
+new/n | 创建新项目
+app/a | 创建空白App
+sever/se | 启动Mock服务
+service/sc | 启动Web服务
+clone/c |       克隆App
+compile/cp|     编译项目
+update/up |     更新App
+apps/as    |    批量克隆App
+reset/re   |    重置目录
+demo/de     |   一键生成演示网站
 
+- ### 安装
+```
+npm i -g ttk-tool
+```
+- ### 创建website
 
-
-
-
-ttk-tool脚手架完整的命令格式如下：
-```bash
-ttk new <newapp>
 
 ```
-如下图
-
-![Alt text](/assets/17920902119109153.png)
-
-```bash
-执行npm start
-打开浏览器：输入http://localhost:8082 如果出现如下图示样，说明项目创建成功。
+ttk new myproject 
 ```
-![Alt text](/assets/18790312857778.png)
 
-* `--template`选项指定项目模板，简写为`-t`。如果不指定项目模板，ttk将使用默认模板,后期会扩展更多模板(https://github.com/thethreekingdoms/ttk-generator-app)；
-* `<newapp>`指定创建项目的文件夹名称，可以有以下取值：
-  * `./`或者`.`或者为空，将当前目录指定为项目目录；
-  * 任何合法的文件夹名称，比如"newapp",将在当面目录下创建新的文件夹作为项目目录。
+- ### 克隆app
 
-> ttk的脚手架功能是基于[yeoman](http://yeoman.io/)构建的，理论上可以安装任何yeoman的脚手架方案。你可以根据yeoman的规范自定义ttk脚手架模板，详细的开发规范请查阅[自定义脚手架](_advance-scaffold.md)。
-
-
-```bash
-执行成功后一个单页项目的初始目录如下图所示：
 ```
-![Alt text](/assets/17950515105145125.png)
+ttk clone ttk-edf-app-login apps/edf/ttk-edf-app-login
+```
 
+- ### 批量克隆app
 
-根目录下的`ttk-conf.js`是ttk的配置文件，脚手架已经为你创建了基础的配置项，你可以参照[配置文档](_config.md)进行更细化的配置。
+```
+ttk apps apps/edf ttk-edf-app-login ttk-edf-app-portal ...
+```
+
+- ### 更新已经存在的app 
+
+```
+ttk update app[包的名字] path[已经存在的路径]
+```
+- ### 编译项目
+
+```
+ttk compile
+```
+
+- ### 创建一个空的app
+```
+ttk app path[路径+app名称]
+如：ttk app apps/edf/ttk-edf-app-login
+```
+> 默认取最末级作为app的名称
+
+- ### 重置app的目录结构
+```
+ttk reset
+```
+>此命令会遍历apps/下的文件目录，重新生成相应的`./index.js`、`mock.js`、`assets/style/app.less`的路径。
+
+- ### 一键生成演示网站
+```
+ttk demo
+```
+>此命令会将Npm上所有开源APP生成演示网站。
+
