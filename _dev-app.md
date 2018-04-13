@@ -7,22 +7,22 @@
 ```
 ttk app firstapp
 ```
-> ==如果要创建目录，可以使用ttk app new/firstapp==的方式创建空App
+* 如果要创建目录，可以使用ttk app new/firstapp的方式创建空App
 
-> ### Setp 2.
+> ### Setp 2.配置页面模型
+
+![image](./assets/data.gif)
+```
+
+```
+> ### Setp 3.事件触发入口
 
 
 ```
 
 ```
-> ### Setp 3.
 
-
-```
-
-```
-
-> ### Setp 4.
+> ### Setp 4.页面状态更新
 
 
 ```
