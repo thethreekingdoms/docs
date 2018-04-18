@@ -26,23 +26,23 @@
 |19  |  ttk-table-app-simplerpt  | 简单报表|[进入](https://github.com/thethreekingdoms/ttk-table-app-simplerpt/)|  报表页| ![image](https://thethreekingdoms.github.io/favicon.png) | 100% |
 |20  |  ttk-table-app-advancereport  | 高级报表|[进入](https://github.com/thethreekingdoms/ttk-table-app-advancereport/)|  报表页| ![image](https://thethreekingdoms.github.io/favicon.png) | 0% |
 |21  |  ttk-table-app-tab-list  | 多页签报表|[进入](https://github.com/thethreekingdoms/ttk-table-app-tab-list/)|  报表页| ![image](https://thethreekingdoms.github.io/favicon.png) | 100% |
-|22  |  ttk-edf-app-list-department-personnel  | 部门人员|[进入](https://github.com/thethreekingdoms/ttk-edf-app-list-department-personnel/)|  设置| ![image](https://thethreekingdoms.github.io/favicon.png) | 0% |
+|22  |  ttk-edf-app-list-department-personnel  | 部门人员|[进入](https://github.com/thethreekingdoms/ttk-edf-app-list-department-personnel/)|  设置| ![image](https://thethreekingdoms.github.io/favicon.png) | 100% |
 |23  |  ttk-edf-app-list-customer  | 客户|[进入](https://github.com/thethreekingdoms/ttk-edf-app-list-customer/)|  设置| ![image](https://thethreekingdoms.github.io/favicon.png) | 100% |
 |24  |  ttk-edf-app-list-supplier  | 供应商|[进入](https://github.com/thethreekingdoms/ttk-edf-app-list-supplier/)|  设置| ![image](https://thethreekingdoms.github.io/favicon.png) | 100% |
 |25  |  ttk-edf-app-list-project  | 项目|[进入](https://github.com/thethreekingdoms/ttk-edf-app-list-project/)|  设置| ![image](https://thethreekingdoms.github.io/favicon.png) | 100% |
 |26  |  ttk-edf-app-list-inventory  | 存货及服务|[进入](https://github.com/thethreekingdoms/ttk-edf-app-list-inventory/)|  设置| ![image](https://thethreekingdoms.github.io/favicon.png) | 100% |
 |27  |  ttk-edf-app-list-account  | 账户|[进入](https://github.com/thethreekingdoms/ttk-edf-app-list-account/)|  设置| ![image](https://thethreekingdoms.github.io/favicon.png) | 100% |
 |28  |  ttk-edf-app-list-currency  | 币种|[进入](https://github.com/thethreekingdoms/ttk-edf-app-list-currency/)|  设置| ![image](https://thethreekingdoms.github.io/favicon.png) | 100% |
-|29  |  ttk-edf-app-list-userdefinecard  | 自定义档案|[进入](https://github.com/thethreekingdoms/ttk-edf-app-list-userdefinecard/)|  设置| ![image](https://thethreekingdoms.github.io/favicon.png) | 0% |
+|29  |  ttk-edf-app-list-userdefinecard  | 自定义档案|[进入](https://github.com/thethreekingdoms/ttk-edf-app-list-userdefinecard/)|  设置| ![image](https://thethreekingdoms.github.io/favicon.png) | 100% |
 |30  |  ttk-edf-app-portal-menu  | 菜单预置|[进入](https://github.com/thethreekingdoms/ttk-edf-app-portal-menu/)|  开发框架| ![image](https://thethreekingdoms.github.io/favicon.png) | 80% |
 |31  |  ttk-edf-app-operation  | 操作权限|[进入](https://github.com/thethreekingdoms/ttk-edf-app-operation/)|  开发框架| ![image](https://thethreekingdoms.github.io/favicon.png) | 50% |
-|32  |  ttk-edf-app-role-auth  | 角色授权|[进入](https://github.com/thethreekingdoms/ttk-edf-app-role-auth/)|  开发框架| ![image](https://thethreekingdoms.github.io/favicon.png) | 50% |
-|33  |  ttk-edf-app-enum  | 枚举预置|[进入](https://github.com/thethreekingdoms/ttk-edf-app-enum/)|  开发框架| ![image](https://thethreekingdoms.github.io/favicon.png) | 50% |
-|34  |  ttk-edf-app-column  | 栏目预置|[进入](https://github.com/thethreekingdoms/ttk-edf-app-column/)|  开发框架| ![image](https://thethreekingdoms.github.io/favicon.png) | 50% |
-|35  |  ttk-edf-app-tools  | 开发工具|[进入](https://github.com/thethreekingdoms/ttk-edf-app-tools/)|  开发框架| ![image](https://thethreekingdoms.github.io/favicon.png) | 50% |
+|32  |  ttk-edf-app-role-auth  | 角色授权|[进入](https://github.com/thethreekingdoms/ttk-edf-app-role-auth/)|  开发框架| ![image](https://thethreekingdoms.github.io/favicon.png) | 100% |
+|33  |  ttk-edf-app-enum  | 枚举预置|[进入](https://github.com/thethreekingdoms/ttk-edf-app-enum/)|  开发框架| ![image](https://thethreekingdoms.github.io/favicon.png) | 100% |
+|34  |  ttk-edf-app-column  | 栏目预置|[进入](https://github.com/thethreekingdoms/ttk-edf-app-column/)|  开发框架| ![image](https://thethreekingdoms.github.io/favicon.png) | 100% |
+|35  |  ttk-edf-app-tools  | 开发工具|[进入](https://github.com/thethreekingdoms/ttk-edf-app-tools/)|  开发框架| ![image](https://thethreekingdoms.github.io/favicon.png) | 100% |
 
 ```
-ttk apps apps/edf ttk-edf-app-login ttk-edf-app-portal ttk-edf-app-home ttk-edf-app-dashboard-workplace ttk-edf-app-dashboard-monitor ttk-edf-app-notice ttk-edf-app-help ttk-edf-app-my-setting ttk-edf-app-basecard ttk-edf-app-step-form ttk-voucher-app-document ttk-edf-app-saleorder ttk-edf-app-stockcard ttk-table-app-simplelist ttk-table-app-list ttk-table-app-rpt ttk-edf-app-productlist ttk-edf-app-orderlist ttk-table-app-simplerpt ttk-table-app-advancereport ttk-table-app-tab-list ttk-edf-app-list-department-personnel ttk-edf-app-list-customer ttk-edf-app-list-supplier ttk-edf-app-list-project ttk-edf-app-list-inventory ttk-edf-app-list-account ttk-edf-app-list-currency ttk-edf-app-list-userdefinecard ttk-edf-app-portal-menu ttk-edf-app-operation ttk-edf-app-role-auth ttk-edf-app-enum ttk-edf-app-column ttk-edf-app-tools
+ ttk demo
 ```
 ```
 > npm start
