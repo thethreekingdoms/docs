@@ -23,4 +23,5 @@
 - [安全](_safe.md)
 - [国际化](_international.md)
 - [常见问题](_problem.md)
+- [兼容IE8](_ie8.md)
 - [谁在使用](/_whouse.md)
